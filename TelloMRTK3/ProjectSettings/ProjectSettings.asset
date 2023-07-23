@@ -13,8 +13,8 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: Hololux
-  productName: TelloMRTK3_v2
-  defaultCursor: {fileID: 0}
+  productName: TelloMRTK3_v3
+  defaultCursor: {fileID: 2800000, guid: 1afc950ed0351e24cac98fdb440b630a, type: 3}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
   m_ShowUnitySplashScreen: 1
@@ -136,6 +136,7 @@ PlayerSettings:
     Others: 1
   bundleVersion: 0.1
   preloadedAssets:
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
@@ -283,7 +284,14 @@ PlayerSettings:
   AndroidMinifyDebug: 0
   AndroidValidateAppBundleSize: 1
   AndroidAppBundleSizeToValidate: 100
-  m_BuildTargetIcons: []
+  m_BuildTargetIcons:
+  - m_BuildTarget: 
+    m_Icons:
+    - serializedVersion: 2
+      m_Icon: {fileID: 2800000, guid: 1afc950ed0351e24cac98fdb440b630a, type: 3}
+      m_Width: 128
+      m_Height: 128
+      m_Kind: 0
   m_BuildTargetPlatformIcons: []
   m_BuildTargetBatching:
   - m_BuildTarget: Standalone
@@ -639,14 +647,14 @@ PlayerSettings:
     Standalone: 3
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: TelloMRTK3v2
+  metroPackageName: TelloMRTK3v23
   metroPackageVersion: 1.0.0.0
   metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
   metroCertificateSubject: Zaid Zaim Innovation
   metroCertificateIssuer: Zaid Zaim Innovation
   metroCertificateNotAfter: 00722340253dda01
-  metroApplicationDescription: TelloMRTK3_v2
+  metroApplicationDescription: TelloMRTK3_v3
   wsaImages: {}
   metroTileShortName: TelloMRTK3
   metroTileShowName: 0
